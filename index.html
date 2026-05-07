@@ -257,84 +257,24 @@
                     <h2 class="text-4xl font-bold mb-4">Полезная информация</h2>
                     <p class="text-slate-600 max-w-lg">Актуальные советы для предпринимателей и ответы на частые юридические вопросы в Республике Беларусь.</p>
                 </div>
-                                <div class="mt-6 md:mt-0">
+                <div class="mt-6 md:mt-0 flex items-center space-x-6">
                     <a href="https://www.instagram.com/mari_povorotnay/" target="_blank" class="text-blue-600 font-semibold hover:underline flex items-center">
-                        Больше в Instagram <i class="fab fa-instagram ml-2"></i>
+                        Instagram <i class="fab fa-instagram ml-2"></i>
                     </a>
-                </div>
-                <div class="mt-6 md:mt-0 flex items-center space-x-4">
-                    <button onclick="prevSlide()" class="w-12 h-12 rounded-full border-2 border-slate-200 text-slate-400 flex items-center justify-center hover:border-blue-600 hover:text-blue-600 transition">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button onclick="nextSlide()" class="w-12 h-12 rounded-full border-2 border-slate-200 text-slate-400 flex items-center justify-center hover:border-blue-600 hover:text-blue-600 transition">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
+                    <div class="flex items-center space-x-4">
+                        <button onclick="prevSlide()" class="w-12 h-12 rounded-full border-2 border-slate-200 text-slate-400 flex items-center justify-center hover:border-blue-600 hover:text-blue-600 transition">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button onclick="nextSlide()" class="w-12 h-12 rounded-full border-2 border-slate-200 text-slate-400 flex items-center justify-center hover:border-blue-600 hover:text-blue-600 transition">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
 
             <div class="slider-container">
                 <div class="slider-track" id="sliderTrack">
-                    <div class="slider-item">
-                        <article class="group cursor-pointer" onclick="openModal(0)">
-                            <div class="overflow-hidden rounded-2xl mb-4 h-64 bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">Как открыть ИП в Беларуси?</h3>
-                            <p class="text-slate-500 text-sm mb-4">Пошаговая инструкция по регистрации: от выбора кодов ОКЭД до первой налоговой декларации...</p>
-                            <span class="text-blue-600 font-medium text-sm">Читать подробнее <i class="fas fa-arrow-right ml-1"></i></span>
-                        </article>
                     </div>
-                    <div class="slider-item">
-                        <article class="group cursor-pointer" onclick="openModal(1)">
-                            <div class="overflow-hidden rounded-2xl mb-4 h-64 bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">Налоговые режимы в РБ</h3>
-                            <p class="text-slate-500 text-sm mb-4">Разбираем отличия УСН, единого налога и подоходного налога. Что выгоднее именно вам?</p>
-                            <span class="text-blue-600 font-medium text-sm">Читать подробнее <i class="fas fa-arrow-right ml-1"></i></span>
-                        </article>
-                    </div>
-                    <div class="slider-item">
-                        <article class="group cursor-pointer" onclick="openModal(2)">
-                            <div class="overflow-hidden rounded-2xl mb-4 h-64 bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">Защита персональных данных</h3>
-                            <p class="text-slate-500 text-sm mb-4">Как правильно оформить политику конфиденциальности и согласия, чтобы избежать штрафов.</p>
-                            <span class="text-blue-600 font-medium text-sm">Читать подробнее <i class="fas fa-arrow-right ml-1"></i></span>
-                        </article>
-                    </div>
-                    <div class="slider-item">
-                        <article class="group cursor-pointer" onclick="openModal(3)">
-                            <div class="overflow-hidden rounded-2xl mb-4 h-64 bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">Договор публичной оферты</h3>
-                            <p class="text-slate-500 text-sm mb-4">Зачем он нужен вашему сайту и какие условия обязательно нужно прописать в 2024 году.</p>
-                            <span class="text-blue-600 font-medium text-sm">Читать подробнее <i class="fas fa-arrow-right ml-1"></i></span>
-                        </article>
-                    </div>
-                    <div class="slider-item">
-                        <article class="group cursor-pointer" onclick="openModal(4)">
-                            <div class="overflow-hidden rounded-2xl mb-4 h-64 bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1454165833767-027ffea9e77b?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">Трудовые отношения</h3>
-                            <p class="text-slate-500 text-sm mb-4">Как правильно оформлять сотрудников и минимизировать риски при увольнении.</p>
-                            <span class="text-blue-600 font-medium text-sm">Читать подробнее <i class="fas fa-arrow-right ml-1"></i></span>
-                        </article>
-                    </div>
-                    <div class="slider-item">
-                        <article class="group cursor-pointer" onclick="openModal(5)">
-                            <div class="overflow-hidden rounded-2xl mb-4 h-64 bg-slate-100">
-                                <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">Интеллектуальная собственность</h3>
-                            <p class="text-slate-500 text-sm mb-4">Регистрация товарного знака и защита авторского права в Республике Беларусь.</p>
-                            <span class="text-blue-600 font-medium text-sm">Читать подробнее <i class="fas fa-arrow-right ml-1"></i></span>
-                        </article>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -451,37 +391,69 @@
     </div>
 
     <script>
-        // --- НАСТРОЙКИ TELEGRAM (ЗАМЕНИТЕ НА СВОИ) ---
+        // --- НАСТРОЙКИ TELEGRAM ---
         const TELEGRAM_BOT_TOKEN = '8616539421:AAGiD8VzYWKlYwhiU4cIqY8ZEq1-hYz8W2E';
         const TELEGRAM_CHAT_ID = '484133546';
 
-        // ДАННЫЕ СТАТЕЙ
+        // --- ДАННЫЕ СТАТЕЙ (ИЗ INDEX TWO) ---
         const articles = [
             {
                 title: "Как открыть ИП в Беларуси?",
+                preview: "Пошаговая инструкция по регистрации: от выбора кодов ОКЭД до первой налоговой декларации...",
+                image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=600",
                 content: "<strong>1. Место регистрации:</strong> По месту жительства (прописки).<br><strong>2. Документы:</strong> Заявление, паспорт, фото 3х4 и квитанция об оплате госпошлины (0.5 базовой величины).<br><strong>3. Процедура:</strong> В день подачи документов вы получаете свидетельство о регистрации.<br><strong>4. После регистрации:</strong> Необходимо встать на учет в ИМНС, ФСЗН и при необходимости открыть расчетный счет.<br><br>Регистрация ИП в Беларуси требует соблюдения определенных правил.<br><strong> Правила:</strong><br>1. Сначала выберите код деятельности по ОКЭД.<br>2. Подайте заявление в исполком по месту жительства или через портал ЕГР.<br>3. Уплатите госпошлину (кроме регистрации онлайн).<br><br>Важно: с 2024 года расширен список видов деятельности, которыми могут заниматься ИП. Обязательно проверьте, входит ли ваше направление в разрешенный перечень."
             },
             {
                 title: "Налоговые режимы в РБ",
+                preview: "Разбираем отличия УСН, единого налога и подоходного налога. Что выгоднее именно вам?",
+                image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=600",
                 content: "На текущий момент основными режимами для малого бизнеса являются:<br><br>• <b>Подоходный налог (20%):</b> Основная система для ИП. Позволяет учитывать профессиональные вычеты.<br>• <b>Единый налог:</b> Для определенных видов деятельности (торговля, услуги населению).<br>• <b>Налог на профессиональный доход (НПД):</b> Для самозанятых (10% или 20%).<br><br>Выбор зависит от объема выручки и ваших расходов."
             },
             {
                 title: "Защита персональных данных",
+                preview: "Как правильно оформить политику конфиденциальности и согласия, чтобы избежать штрафов.",
+                image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600",
                 content: "Закон Республики Беларусь «О защите персональных данных» обязателен для всех, кто собирает контакты клиентов через сайт. <br><br>Вам необходимо: <br>1. Разместить Политику конфиденциальности.<br>2. Получить явное согласие пользователя на обработку данных.<br>3. Назначить ответственного за защиту данных. <br><br>Штрафы за несоблюдение могут достигать существенных размеров."
             },
             {
                 title: "Договор публичной оферты",
+                preview: "Зачем он нужен вашему сайту и какие условия обязательно нужно прописать в 2026 году.",
+                image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600",
                 content: "Оферта — это предложение заключить договор на определенных условиях. <br><br>Для интернет-магазина или инфобизнеса это критически важный документ. В нем должны быть четко прописаны: <br>• Порядок оплаты и возврата средств. <br>• Сроки оказания услуг. <br>• Ответственность сторон. <br>Правильно составленная оферта защитит вас в суде и снизит количество необоснованных претензий."
             },
             {
                 title: "Трудовые отношения",
+                preview: "Как правильно оформлять сотрудников и минимизировать риски при увольнении.",
+                image: "https://images.unsplash.com/photo-1454165833767-027ffea9e77b?auto=format&fit=crop&q=80&w=600",
                 content: "Трудовой кодекс РБ строго регламентирует права работников. При найме персонала важно правильно составить Контракт или Договор подряда. <br><br>Совет: всегда прописывайте должностную инструкцию максимально детально. Это поможет в будущем обосновать дисциплинарное взыскание или законное увольнение при невыполнении обязанностей."
             },
             {
                 title: "Интеллектуальная собственность",
+                preview: "Регистрация товарного знака и защита авторского права в Республике Беларусь.",
+                image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=600",
                 content: "Ваш бренд — это ваш актив. Регистрация товарного знака в Национальном центре интеллектуальной собственности (НЦИС) дает исключительное право на его использование. <br><br>Помните, что использование чужих фото или текстов на сайте без разрешения правообладателя влечет ответственность. Всегда оформляйте передачу авторских прав с дизайнерами и копирайтерами."
             }
         ];
+
+        // ФУНКЦИЯ ОТРИСОВКИ СТАТЕЙ (ИЗ INDEX TWO)
+        function renderArticles() {
+            const track = document.getElementById('sliderTrack');
+            track.innerHTML = articles.map((article, index) => `
+                <div class="slider-item">
+                    <article class="group cursor-pointer" onclick="openModal(${index})">
+                        <div class="overflow-hidden rounded-2xl mb-4 h-64 bg-slate-100">
+                            <img src="${article.image}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">${article.title}</h3>
+                        <p class="text-slate-500 text-sm mb-4">${article.preview}</p>
+                        <span class="text-blue-600 font-medium text-sm">Читать подробнее <i class="fas fa-arrow-right ml-1"></i></span>
+                    </article>
+                </div>
+            `).join('');
+        }
+
+        // Инициализация при загрузке
+        renderArticles();
 
         // ФУНКЦИОНАЛ МОДАЛЬНОГО ОКНА
         function openModal(index) {
@@ -500,7 +472,6 @@
         // ФУНКЦИОНАЛ СЛАЙДЕРА
         let currentIdx = 0;
         const track = document.getElementById('sliderTrack');
-        const totalItems = 6;
 
         function updateSlider() {
             let itemsVisible = 1;
@@ -513,7 +484,7 @@
 
         function nextSlide() {
             currentIdx++;
-            if (currentIdx > totalItems - 1) {
+            if (currentIdx > articles.length - 1) {
                 currentIdx = 0;
             }
             updateSlider();
@@ -522,7 +493,7 @@
         function prevSlide() {
             currentIdx--;
             if (currentIdx < 0) {
-                currentIdx = totalItems - 1;
+                currentIdx = articles.length - 1;
             }
             updateSlider();
         }
@@ -544,33 +515,27 @@
         }, { passive: true });
 
         function handleSwipe() {
-            const swipeThreshold = 50; // Минимальное расстояние для срабатывания свайпа
+            const swipeThreshold = 50; 
             const diff = touchStartX - touchEndX;
 
             if (Math.abs(diff) > swipeThreshold) {
-                if (diff > 0) {
-                    nextSlide(); // Свайп влево -> следующий слайд
-                } else {
-                    prevSlide(); // Свайп вправо -> предыдущий слайд
-                }
+                if (diff > 0) nextSlide(); else prevSlide();
             }
         }
 
-        // ОБРАБОТКА ФОРМ И ОТПРАВКА В TELEGRAM
+        // ОБРАБОТКА ФОРМ И ОТПРАВКА В TELEGRAM (ИЗ INDEX ONE)
         async function handleFormSubmit(event, type) {
             event.preventDefault();
             const form = event.target;
             const submitBtn = form.querySelector('button');
             const originalBtnText = submitBtn.innerText;
 
-            // Визуальная индикация загрузки
             submitBtn.disabled = true;
             submitBtn.innerText = 'Отправка...';
 
             const formData = new FormData(form);
             let text = `<b>${type}</b>\n\n`;
             
-            // Собираем текстовые поля
             if(formData.has('user_name')) text += `👤 Имя: ${formData.get('user_name')}\n`;
             if(formData.has('user_phone')) text += `📞 Тел: ${formData.get('user_phone')}\n`;
             if(formData.has('booking_date')) text += `📅 Дата: ${formData.get('booking_date')}\n`;
@@ -580,21 +545,17 @@
 
             try {
                 let response;
-                
-                // Если есть файл, используем sendDocument
                 if (file && file.size > 0) {
                     const tgFormData = new FormData();
                     tgFormData.append('chat_id', TELEGRAM_CHAT_ID);
                     tgFormData.append('document', file);
                     tgFormData.append('caption', text);
                     tgFormData.append('parse_mode', 'HTML');
-
                     response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument`, {
                         method: 'POST',
                         body: tgFormData
                     });
                 } else {
-                    // Если файла нет, просто отправляем текст
                     response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
@@ -616,7 +577,7 @@
                     throw new Error('Ошибка при отправке');
                 }
             } catch (error) {
-                alert('Произошла ошибка при отправке. Пожалуйста, попробуйте позже или свяжитесь напрямую через Telegram.');
+                alert('Произошла ошибка при отправке. Пожалуйста, попробуйте позже.');
                 console.error(error);
             } finally {
                 submitBtn.disabled = false;
